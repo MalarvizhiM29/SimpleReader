@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  height: 4rem;
+  background-color: #f5a7f1;
+}
+
+.home-heading {
+  font-family: "Neucha", cursive;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.navbar .home {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  padding: 0 10px;
+}
+
+.navbar .home:after {
+  content: "";
+  position: absolute;
+  background-color: #43aaf4;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.navbar .home:hover:after {
+  width: 100%;
+}

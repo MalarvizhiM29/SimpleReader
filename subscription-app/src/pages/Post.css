@@ -1,0 +1,49 @@
+.buy-plan {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-content {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.plan-link {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.arti {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-article {
+  border: 2px solid black;
+  border-radius: 2rem;
+  width: 20rem;
+  height: 32rem;
+  margin: 3rem;
+}
+
+.my-img {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.my-title {
+  font-family: "Neucha", cursive;
+  padding: 0 1rem;
+  font-weight: 600;
+}
+
+.my-content {
+  padding: 0 1rem;
+}

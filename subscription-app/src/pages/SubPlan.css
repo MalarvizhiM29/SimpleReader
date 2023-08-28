@@ -1,0 +1,51 @@
+.plan-card {
+  display: flex;
+  height: 75vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.combo-card {
+  border: 1px solid black;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(19, 20, 19, 0.342);
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.card {
+  width: 15rem;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Neucha", cursive;
+  background-color: #43aaf4;
+}
+
+.nickname {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+}
+
+.price-amount {
+  font-weight: 600;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  width: 10rem;
+  height: 10rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(19, 20, 19, 0.342);
+}
+
+.plan-btn {
+  background-color: #43aaf4;
+  margin: 0 0 0.5rem 0.5rem;
+}
