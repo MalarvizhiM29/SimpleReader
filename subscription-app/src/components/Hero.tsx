@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import heroImage from "../assets/bg-image-new.jpg";
+import heroImage from "../assets/new-bg-img.jpeg";
 import "./Hero.css";
 import { useNavigate } from "react-router-dom";
 import { UserContext } from "../context";
@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
       data: {
         id: response.data.data.user.id,
         email: response.data.data.user.email,
-        customerStripeId: response.data.data.user.customerStripeId,
+        stripeCustomerId: response.data.data.user.customerStripeId,
       },
       loading: false,
       error: null,
@@ -85,10 +85,10 @@ const Hero: React.FC = () => {
       <div className={`hero-content ${isPopupOpen ? "blur" : ""}`}>
         <div className="content">
           <h2 className="disk">
-            Empowering Learning Through Collaborative Exchange
+            Fostering knowledge through collaborative article reading.
             <span className="disk-span">
-              Unlocking Learning Potential through Collaborative Knowledge
-              Exchange.
+              Dive into the world of enlightenment through the pages of article
+              reading.
             </span>
           </h2>
           <button className="hero-button" onClick={togglePopup}>
